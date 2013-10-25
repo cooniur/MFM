@@ -16,6 +16,7 @@
 		91045E321818F20200E320B8 /* mfmMakingPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91045E311818F20200E320B8 /* mfmMakingPaymentViewController.m */; };
 		910500391819E0B800120C4D /* mfmStringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 910500381819E0B800120C4D /* mfmStringHelper.m */; };
 		910500461819EB2800120C4D /* mfmUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 910500451819EB2800120C4D /* mfmUITextField.m */; };
+		91432BBA181A46F500323ED4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91432BB9181A46F500323ED4 /* Images.xcassets */; };
 		9189585818184EEF008CF196 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9189585718184EEF008CF196 /* Foundation.framework */; };
 		9189585A18184EEF008CF196 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9189585918184EEF008CF196 /* CoreGraphics.framework */; };
 		9189585C18184EEF008CF196 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9189585B18184EEF008CF196 /* UIKit.framework */; };
@@ -62,6 +63,7 @@
 		910500381819E0B800120C4D /* mfmStringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mfmStringHelper.m; sourceTree = "<group>"; };
 		910500441819EB2800120C4D /* mfmUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mfmUITextField.h; sourceTree = "<group>"; };
 		910500451819EB2800120C4D /* mfmUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mfmUITextField.m; sourceTree = "<group>"; };
+		91432BB9181A46F500323ED4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9189585418184EEF008CF196 /* mfm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mfm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9189585718184EEF008CF196 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9189585918184EEF008CF196 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -121,6 +123,7 @@
 			children = (
 				9189586918184EEF008CF196 /* Main_iPhone.storyboard */,
 				9189586C18184EEF008CF196 /* Main_iPad.storyboard */,
+				91432BB9181A46F500323ED4 /* Images.xcassets */,
 			);
 			name = resources;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9189586E18184EEF008CF196 /* Main_iPad.storyboard in Resources */,
+				91432BBA181A46F500323ED4 /* Images.xcassets in Resources */,
 				9189586B18184EEF008CF196 /* Main_iPhone.storyboard in Resources */,
 				9189586218184EEF008CF196 /* InfoPlist.strings in Resources */,
 			);
@@ -479,7 +483,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -513,7 +517,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
