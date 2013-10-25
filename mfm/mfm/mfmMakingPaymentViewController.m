@@ -13,6 +13,7 @@
 - (void) viewDidLoad {
 	[super viewDidLoad];
 	self.navigationItem.hidesBackButton = TRUE;
+	[self.indMakingPayment startAnimating];
 }
 
 - (IBAction)btnSucceeded_TouchedUpInside:(id)sender {

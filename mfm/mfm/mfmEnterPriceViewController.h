@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface mfmEnterPriceViewController : UIViewController
+@interface mfmEnterPriceViewController : UIViewController <UITextFieldDelegate>
+
 - (IBAction)btnNext_TouchedUpInside:(id)sender;
 @property (weak, nonatomic) IBOutlet UITextField *txtPrice;
 

@@ -22,7 +22,9 @@
 /**
  Alert Messages
  */
-#define MFM_MSG_CANCEL_PAYMENT			@"To cancel this payment, please click Yes."
+#define MFM_MSG_CANCEL_PAYMENT			@"Do you want to cancel this payment?"
+#define MFM_MSG_AGREE_PRICE				@"By selecting YES, you will agree with the price set by the vendor."
+#define MFM_MSG_CANNOT_READ_CARD		@"Cannot read card. Please swipe card again."
 
 
 #define MFM_PIN_FIXED_LENGTH			(4)

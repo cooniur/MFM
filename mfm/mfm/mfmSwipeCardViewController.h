@@ -10,7 +10,11 @@
 
 @interface mfmSwipeCardViewController : UIViewController
 - (IBAction)btnCancel_TouchedUpInside:(id)sender;
-
 - (IBAction)btnReadFailed_TouchedUpInside:(id)sender;
 - (IBAction)btnReadSucceeded_TouchedUpInside:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UILabel *lblPrice;
+
+- (void)setPrice:(NSNumber*)price;
+
 @end

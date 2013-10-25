@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface mfmMakingPaymentViewController : UIViewController
+
 - (IBAction)btnSucceeded_TouchedUpInside:(id)sender;
 - (IBAction)btnFailed_TouchedUpInside:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *indMakingPayment;
 
 @end
